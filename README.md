@@ -26,6 +26,12 @@ Using the openweathermap api, users will be able to look at weather data for any
 
 ### The Challenge
 
+Challenges will have solutions in the [process section](#process).
+
+- Challenge 1: In order to get the "current weather data" I need to make an API call with the query string taking the lat (latitude) and lon (longitude) and my API key. We need to use the Geocoding API to get the lat & lon and then take that information to get the current weather of a particular city.
+- Challenge 2: The API key needs to be hidden.
+- Challenge 3: Taking the data from the Geocoding API if the promise is resolved and placing it inside the "current weather data" call.
+
 ### Screenshots
 
 ### Links
@@ -42,6 +48,7 @@ Using the openweathermap api, users will be able to look at weather data for any
 - [OpenWeather API Tutorial 2021](https://www.youtube.com/watch?v=nGVoHEZojiQ)
 - [OpenWeather.org](https://openweathermap.org/)
     - [Current weather data doc](https://openweathermap.org/current)
+    - [Geocoding API Doc](https://openweathermap.org/api/geocoding-api)
 - [Using a Public API - Tutorial for Beginners](https://www.youtube.com/watch?v=BYsTrGH6B2s&list=PL34UvIIxZ7LCo8JeQwdKt2tlwJ0k6K-yF&index=5)
 - [Learn JSON - Full Crash Course for Beginners](https://www.youtube.com/watch?v=GpOO5iKzOmY)
 - [APIs for Beginners - How to use an API (Full Course/Tutorial)](https://www.youtube.com/watch?v=GZvSYJDk-us&t=1674s)
