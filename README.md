@@ -59,6 +59,8 @@ Challenges will have solutions in the [process section](#process).
 - HTML5
 - CSS
 - JavaScript
+    - AJAX
+
 
 ### What I learned
 
