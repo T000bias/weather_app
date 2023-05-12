@@ -31,6 +31,7 @@ Challenges will have solutions in the [process section](#process).
 - Challenge 1: In order to get the "current weather data" I need to make an API call with the query string taking the lat (latitude) and lon (longitude) and my API key. We need to use the Geocoding API to get the lat & lon and then take that information to get the current weather of a particular city.
 - Challenge 2: The API key needs to be hidden.
 - Challenge 3: Taking the data from the Geocoding API if the promise is resolved and placing it inside the "current weather data" call.
+- Challenge 4: Node module .env & express not working. I need to figure out the issue
 
 ### Screenshots
 

@@ -3,3 +3,9 @@
 
 # dependencies
 /node_modules
+
+#temporary keys
+/keys
+
+#temporary file
+api.js

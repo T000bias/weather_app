@@ -1,7 +1,9 @@
-let latlon = fetch(`http://api.openweathermap.org/geo/1.0/direct?q=Philadelphia&limit=1&appid=${weatherKey}`) 
+import * as key from "./api.js"
+console.log(key.secrets.weatherkey)
+let latlon = fetch(`http://api.openweathermap.org/geo/1.0/direct?q=Philadelphia&limit=1&appid=${key.secrets.weatherkey}`) 
     .then(res => res.json())
     .then(data => {
-        console.log(JSON.stringify(data))
+        console.log(JSON.stringify(data[0]))
     })
 
 console.log(latlon)
